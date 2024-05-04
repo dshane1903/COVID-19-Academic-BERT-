@@ -1,0 +1,100 @@
+#question-form {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.5rem 0rem;
+}
+
+#question-form > input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.7rem 1rem;
+    border: 0.1rem solid lightgray;
+    border-radius: 0.2rem;
+    transition: border 0.2s;
+    background-color: white;
+    background-image: url('search-icon.png');
+    background-position: 0.5rem 0.7rem;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    font-size: 0.9rem;
+}
+
+#question-form > input:focus {
+    outline: none;
+    border: 0.1rem solid gray;
+}
+
+#question-form a {
+    display: inline-block;
+    /* background-color: #3f51b5; */
+    background-color: orange;
+    border: none;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+    width: 10%;
+    max-width: 10%;
+    margin: 1rem 2rem 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: background-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+#question-form a:hover {
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#question-form a:active {
+    background-color: #212c6e;
+}
+
+.btn-wrapper {
+    margin: 0.5rem auto;
+}
+
+#loading {
+    display: inline-block;
+    position: relative;
+    top: 0.6rem;
+    opacity: 0;
+}
+
+.btn-suggestion {
+    display: block;
+    /* background-color: white; */
+    background-color: white;
+    /* border: 0.1rem solid black; */
+    border: 0.1rem solid lightgray;
+    text-align: center;
+    max-width: 100%;
+    /* margin: 2rem 0; */
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: background-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.btn-suggestion:hover {
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-suggestion:active {
+    background-color: rgba(200, 200, 200, 0.3);
+}
+
+.btn-suggestion > input {
+    border: none;
+    background-color: transparent;
+    /* color: #3f51b5; */
+    color: default;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
