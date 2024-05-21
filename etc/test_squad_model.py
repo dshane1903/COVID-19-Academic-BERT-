@@ -41,7 +41,7 @@ start_scores, end_scores = model(torch.tensor([input_ids]), # The tokens represe
 
 # Find the tokens with the highest `start` and `end` scores.
 answer_start = torch.argmax(start_scores)
-answer_end = torch.argmax(end_scores)
+answer_end = torch.argmax(end_scores) 
 
 # Combine the tokens in the answer and print it out.
 answer = ' '.join(tokens[answer_start:answer_end+1])
