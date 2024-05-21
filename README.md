@@ -19,6 +19,4 @@ Search results are generated using CovidBERT to create sentence embeddings. We f
 
 <img src="./doc/slides_key_concepts.jpg" width="720px"/>
 
-## Demo
 
-[![alt-image-here](https://img.youtube.com/vi/m7WguDLQug4/1.jpg)](https://www.youtube.com/watch?v=m7WguDLQug4)
