@@ -13,7 +13,7 @@
 # pip install gensim
 # pip install nltk
 # 2) Run this script and click download all NLTK files, except for models.
-# import nltk
+# import nltk 
 # import ssl
 # try:
 #     _create_unverified_https_context = ssl._create_unverified_context
