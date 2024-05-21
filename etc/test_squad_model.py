@@ -46,7 +46,7 @@ answer_end = torch.argmax(end_scores)
 # Combine the tokens in the answer and print it out.
 answer = ' '.join(tokens[answer_start:answer_end+1])
 
-print('Answer: "' + answer + '"')
+print('Answer: "' + answer + '"') 
 
 # Pull the scores out of PyTorch Tensors and convert them to 1D numpy arrays.
 s_scores = start_scores.detach().numpy().flatten()
