@@ -59,7 +59,7 @@ for (i, token) in enumerate(tokens):
     token_labels.append('{:} - {:>2}'.format(token, i))
 
 import numpy as np
-import pandas as pd
+import pandas as pd 
 
 df = pd.DataFrame({
     'tokens': token_labels,
