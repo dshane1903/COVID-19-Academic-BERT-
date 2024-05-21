@@ -5,7 +5,7 @@ Week 1
 -   [x] (Tim) Fine tune model o (https://towardsdatascience.com/covid-19-bert-literature-search-engine-4d06cdac08bd)
 -   [x] (Tim) Create embeddings dataset by preprocessing articles
 -   [x] (Tim) Get basic model working in Javascript
--   [x] (Shane) Create prototype user interface (React.js, https://material-ui.com/)
+-   [x] (Shane) Create prototype user interface (React.js, https://material-ui.com/) 
 
 Week 2
 
