@@ -13,7 +13,7 @@ class VisualizeKeywords:
 
     def get_scores(self, question, answer_text):
         input_ids = self.tokenizer.encode(question, answer_text)
-        # Get the token strings
+        # Get the token strings 
         tokens = self.tokenizer.convert_ids_to_tokens(input_ids)
         # Search the input_ids for the first instance of the `[SEP]` token.
         sep_index = input_ids.index(self.tokenizer.sep_token_id)
